@@ -500,6 +500,8 @@
         display: flex;
         gap: 20px;
         flex-direction: column;
+        width: 91%;
+        height: 91%;
     }
     .tablet-blog {
        width: 800px;
