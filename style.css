@@ -279,8 +279,7 @@
 
      .greatest-show {
          margin-top: 41px;
-         margin-left: 20px;
-         margin-right: 20px;
+         margin-left: 30px;
          width: 334px;
          height: 472px;
          background: #161616;
@@ -371,10 +370,12 @@
      }
 
      .transfer-live {
+        
          display: grid;
          grid-template-columns: repeat(1, 1fr);
+         margin-left: 24px;
          gap: 24px;
-         margin-right: 100px;
+         
      }
 
      .goal {
