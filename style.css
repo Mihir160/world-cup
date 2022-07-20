@@ -2,9 +2,11 @@
 
  body {
      font-family: 'Poppins', sans-serif;
+     margin: 0;
  }
 
  /* header-content */
+
  .greatest-show {
 
      margin-top: 50px;
@@ -170,7 +172,7 @@
  .goal {
      position: absolute;
      margin-top: 130px;
-     width: 1600px;
+     width: 100%;
      height: 444px;
      left: 0px;
      background: #161616;
@@ -277,7 +279,7 @@
 
      .greatest-show {
          margin-top: 41px;
-         margin-left: 13px;
+         margin-left: 20px;
          margin-right: 20px;
          width: 334px;
          height: 472px;
@@ -378,7 +380,7 @@
      .goal {
          position: absolute;
          margin-top: 60px;
-         width: 375px;
+         width: 100%;
          height: 412px;
          left: 0px;
          background: #161616;
@@ -433,7 +435,9 @@
 
  /* tablet devices */
  @media only screen and (min-width:689px) and (max-width:992px) {
-     .greatest-show {
+     
+   
+    .greatest-show {
 
          margin-top: 50px;
          margin-left: 35px;
@@ -560,9 +564,11 @@
     .goal {
         position: absolute;
         margin-top: 30px;
-        width: 834px;
+        width: 100%;
         height: 345px;
         left: 0px;
+        right: inherit;
+        
         background: rgb(22, 22, 22);
     }
     .goal-content {
