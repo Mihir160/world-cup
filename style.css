@@ -98,6 +98,10 @@
      margin-top: 18px;
 
  }
+ #all-group:hover{
+    background-color: blue;
+   
+ }
 
  #blog {
      background-color: red;
@@ -435,7 +439,7 @@
  }
 
  /* tablet devices */
- @media only screen and (min-width:689px) and (max-width:992px) {
+ @media only screen and (min-width:688px) and (max-width:992px) {
      
    
     .greatest-show {
@@ -500,17 +504,16 @@
         display: flex;
         gap: 20px;
         flex-direction: column;
-        width: 91%;
-        height: 91%;
+        
     }
-    .tablet-blog {
+    .main-blog {
        width: 800px;
        height: 120px;
        border-radius: 10px;
        background-color: white;
     
     }
-    .tablet-content {
+    .blog-content {
         margin-left: -25px;
         width: 800px;
         display: flex;
@@ -518,7 +521,7 @@
         display: flex;
         gap: 22px;
     }
-    .tablet-content button{
+    .blog-content button{
         width: 230px;
         height: 64px;
         background: #FFFFFF;
