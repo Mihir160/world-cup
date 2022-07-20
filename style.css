@@ -84,6 +84,7 @@ span{
     margin-top: 18px;
    
 }
+
 #blog{
     background-color: red;
     color: white;
@@ -239,7 +240,7 @@ li{
    
     .greatest-show{
         margin-top: 41px;
-        margin-left: 15px;
+        margin-left: 13px;
         margin-right: 20px;
         width: 334px;
         height: 472px;
@@ -281,6 +282,7 @@ li{
         height: 40px;
         margin-left: 50px;
         font-size: 20px;
+        border: none;
 
     }
     .header-img img{
@@ -302,7 +304,7 @@ li{
     .main-blog{
         background-color: white;
     }
-    #upcoming{
+    .upcoming{
         background-color: white;
         border: 1px solid rgb(179, 177, 177)
     }
